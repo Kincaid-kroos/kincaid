@@ -3,10 +3,12 @@
     display: flex;
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
+    margin-bottom: 50px;
   }
   @media screen and (max-width: 600px) {
     .home-page{
-    margin: 10px 10px 10px 10px;
+margin: 0;
+margin-bottom: 25px;
   
 }
   }

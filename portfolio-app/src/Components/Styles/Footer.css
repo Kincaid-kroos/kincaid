@@ -1,0 +1,24 @@
+.footercontainer{    
+    background-color:#0A1929;
+      }
+      
+.footerdivcss{  
+    color: #ff8f00
+    }
+   
+    .no-bullets {
+        list-style-type: none;
+      }
+      
+    
+    .socio-icons{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .socio-icons li {
+        /*This sorts the gap within the list items*/
+        margin-right: 20px;
+        color: aqua;
+      }
+      

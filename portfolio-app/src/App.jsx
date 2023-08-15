@@ -7,10 +7,12 @@ import Resume from "./Components/PageRoutes/Resume.jsx";
 import Projects from "./Components/PageRoutes/Projects.jsx"; 
 import Contact from "./Components/PageRoutes/Contact.jsx"; 
 import Blogs from "./Components/PageRoutes/Blogs.jsx"; 
+import Footer from './Components/Hocs/Footer';
 
 const App = () => {
   return (
-    <BrowserRouter >
+    <div className='general-styling'>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -20,7 +22,9 @@ const App = () => {
         <Route exact path="/resume" element={<Resume />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
+    </div>
   );
 };
 
