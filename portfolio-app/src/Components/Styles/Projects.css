@@ -1,0 +1,28 @@
+.style-text {
+    color: chocolate;
+    
+    font-size: 20px;
+}
+.projects {
+    align-items: center;
+    max-width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+     /* Distribute images evenly */
+  }
+  .img {
+    border-radius: 20px;
+    width: calc(33.33% - 10px); /* 3 images in a row with some spacing */
+    margin-bottom: 30px; /* Add some spacing between rows */
+  }
+  @media screen and (max-width: 600px) {
+    .projects {
+      justify-content: center; /* Center images on small screens */
+    }
+  
+    .img {
+      width: 100%; /* Full width on small screens */
+    }
+  }

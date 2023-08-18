@@ -1,0 +1,76 @@
+.stack-container {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin:10px 10px 10px 10px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .skill-card {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+
+
+  /* Common styles for the skillset items */
+.group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .group svg {
+    width: 60px;
+    height: 60px;
+    fill: #4c24dd;
+    transition: transform 0.3s;
+  }
+  
+  .group:hover svg {
+    transform: scale(1.1);
+  }
+  
+  .group h2 {
+    color: #fff;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .group p {
+    color: #5b6876;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  
+  /* Additional styles specific to each item */
+  
+  /* Backend Developer */
+  .group.backend-developer {
+    margin-top: 1rem;
+  }
+  
+  /* Database Design */
+  .group.database-design {
+    margin-top: 2rem;
+  }
+  
+  /* Content Writing */
+  .group.content-writing {
+    margin-top: 2rem;
+  }
+  

@@ -1,5 +1,6 @@
 .footercontainer{    
     background-color:#0A1929;
+    
       }
       
 .footerdivcss{  
@@ -18,7 +19,15 @@
     }
     .socio-icons li {
         /*This sorts the gap within the list items*/
-        margin-right: 20px;
+        margin-right: 30px;
         color: aqua;
       }
+
+
+      .icon-color {
+          color:aqua;
+          margin-top: 10px;
+          
+      }
+      
       
