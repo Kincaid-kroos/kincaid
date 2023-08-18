@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [mouseOver,setMouseOver] = useState(false);
   const[sectionClick, setSectionClick] = useState(false)
-
+  
 
   const mouseOverHandler = () => {
     setMouseOver(true);
@@ -56,10 +56,7 @@ const handleSectionClick = () => [
               <NavLink className="nav-link text-light text-capitalize" to="/projects">Projects</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-light" to="/resume">Resume</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link text-light" to="/blogs">Blogs</NavLink>
+              <NavLink className="nav-link text-light" to="/resume" >Resume</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link text-light " to="/contact">Contact</NavLink>
@@ -67,8 +64,14 @@ const handleSectionClick = () => [
           </ul> 
           <p className="styled-contact">  <SettingsPhoneIcon className='call-settings' />  +254 701 218 138</p>
         </div>
+               
+        
       </div>
+      
     </nav>
+    
+    
+    
   )
 }
 

@@ -3,7 +3,7 @@
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GithubIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import '../Styles/Footer.css';
 
 const Footer = () => {
@@ -18,10 +18,10 @@ const Footer = () => {
           Copyright©{timeline}: || All rights reserved
         </footer>
         <ul className='socio-icons no-bullets text-center'>
-          <li> <a href='https://www.facebook.com/kinc.kroos'><FacebookIcon /></a></li>
-          <li> <a href='https://twitter.com/kiprotichkinca1'><TwitterIcon /></a></li> 
-          <li><a href='www.linkedin.com/in/kiprotich-kincaid-b50664203'><LinkedInIcon /></a></li>
-          <li><GithubIcon /></li>
+          <li> <a href='https://www.facebook.com/kinc.kroos'>< FacebookIcon className="icon-color" /></a></li>
+          <li> <a href='https://twitter.com/kiprotichkinca1'><TwitterIcon  className="icon-color"/></a></li> 
+          <li> <a href='www.linkedin.com/in/kiprotich-kincaid-b50664203'><LinkedInIcon  className="icon-color"/></a></li>
+          <li> <a href='https://github.com/Kincaid-kroos/kincaid'> <GitHubIcon className="icon-color"/></a></li>
         </ul>
 
       </div>
