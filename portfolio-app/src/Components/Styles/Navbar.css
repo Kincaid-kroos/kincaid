@@ -90,6 +90,43 @@
 }
 
 
-  
 
-  
+
+
+.modal-container {
+  position: absolute;
+  top: 3%;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 85%;
+  background-color: white;
+  box-shadow: 24px;
+  padding: 4px;
+}
+
+.modal-content {
+  position: absolute;
+  top: 5%;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 4px;
+  font-size: x-large;
+}
+
+.text-hover {
+  color:white;
+}
+.text-hover:hover {
+  color: #ff8f00;
+}
+.text-hover:visited {
+  color: #ff8f00;
+}
+
+
+
