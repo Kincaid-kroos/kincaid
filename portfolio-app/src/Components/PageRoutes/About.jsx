@@ -7,14 +7,96 @@ import { IoMdCodeWorking } from 'react-icons/io';
 const About = () => {
   return (
     <div>
+          <h1 className="mt-30">About <b className="bold-header">Me</b></h1>
+      <div>
+        <p className="about-me">
+          <p className="about-me-1">Who am I ?</p>
+          I'm a Software developer and suddenly data analyst<br/>
+          with a Bsc in Computer Science and Statistics. I have worked<br/>
+          with various tools and technologies in both fields to <br/>
+          innovative and impactful solutions. Above all i'm a lifelong <br/>
+          tech learner and committed to constantly improving my skills <br/>
+          and contributing to development of tech community.
+        </p>
+      </div>
+
+      <div>
+        <h2 className="tech-stack-header">Tech Stack</h2>
+       <div className="stack">
+       <p className="stack-header">Stack:</p>
+       <p className="stack-p">
+       JavaScript, React Js, Python, Django, TypeScript, Bootstrap, RESTful APIs, GraphQL, <br/> 
+       Tailwind, MYSQL, PostgreSQL, CSS, HTML, Git, AWS, SPSS,Excel,SQL.
+       </p>
+        </div> 
+      </div>
+
+      <div>
+        <h2 className="tech-stack-header">Skillset</h2>
+        <div>
+        <p className="skillset-p">
+            With skills in over 4 different fields, <br/>
+            I can pretty much take on any challenge.
+          </p>
+
+          <div className="skillset">
+          <div className="frontend-skillset container">
+            <MdOutlineDesignServices className="design"/>
+            <h2 className="skillset-header">
+              Frontend Developer
+            </h2>
+            <p className="front-end">
+              I have a strong understanding of the frontend development process
+              and I can build any web UI from scratch. I have experience with
+              HTML, CSS, JavaScript, TypeScript, React, Bootstrap and Tailwind.
+            </p>
+          </div>
+          <div className="backend-skillset container">
+            <IoMdCodeWorking className="design"/>
+            <h2 className="skillset-header">
+              Backend Developer
+            </h2>
+            <p className="back-end">
+              I have a strong understanding of the backend development process
+              and I can build any web app from scratch. I have experience with
+              Python,Django,Postgresql and RESTful APIs.
+            </p>
+          </div>
+          <div className="database-skillset container">
+            <CiDatabase className="design"/>
+            <h2 className="skillset-header">Database design</h2>
+            <p
+              className="data-base">
+              I have a strong understanding of the database design process and I 
+              can build any database from scratch. I have experience with SQL, 
+              MYSQL and Postgresql.
+            </p>
+          </div>
+          <div className="dataanalysis-skillset container">
+            <BiPen className="design"/>
+            <h2 className="skillset-header">Data Analysis</h2>
+            <p className="data-analysis">
+              I have a strong understanding of data analysis process and I can analyse
+               any data from scratch. I have experience with SPSS, SQL, Python and Excel .
+            </p>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+      
+
+    
     <div className="container">
     <h1>About Me</h1>
     <div className="stack-container">
+    
    
        <div>
            <h2 className="tech-stack" style={{ color: "green" }}> My Tech Stack </h2>
        </div>
-  <      div className=" text-center skills">
+  <div className=" text-center skills">
              <div className="skill-card main">Software Development</div>
              <div className="skill-card">Javascript/TypeScript</div>
              <div className="skill-card">HTML&CSS</div>
@@ -28,98 +110,9 @@ const About = () => {
     </div>
     </div>
 
- <div className="skillset" >
-  <div className="skillset-1">
-    <div className="skillset-2 text-center ">
-          <h1 className="skillset-header">Skillset</h1>
-          <p
-            className="skillset-p text-light"
-            style={{ fontSize: "25px", lineHeight: "150%" }}
-          >
-            With skills in over 4 different fields Below, <br/>
-            I can pretty much take on any challenge.
-          </p>
-        </div>
-        <div className="skillset-group">
-          <div className="group">
-            <MdOutlineDesignServices
-              size={5}
-              color="yellow"
-              className="group-hover:scale-110  duration-300"
-            />
-            <h2 className="text-[#fff] mt-2 text-2xl font-bold">
-              Frontend Developer
-            </h2>
-            <p
-              className="text-[#5b6876]"
-              style={{ fontSize: "18px", lineHeight: "150%" }}
-            >
-              I have a strong understanding of the frontend development process
-              and I can build any website from scratch. I have experience with
-              HTML, CSS, JavaScript, React, Nextjs, and Tailwind.
-            </p>
-          </div>
-          <div className="mt-4 group">
-            <IoMdCodeWorking
-              size={60}
-              color="#4c24dd"
-              className="group-hover:scale-110  duration-300"
-            />
-            <h2 className="text-[#fff] mt-2 text-2xl font-bold">
-              Backend Developer
-            </h2>
-            <p
-              className="text-[#5b6876]"
-              style={{ fontSize: "18px", lineHeight: "150%" }}
-            >
-              I have a strong understanding of the backend development process
-              and I can build any website from scratch. I have experience with
-              Ruby, Rails, Postgresql, and Rspec.
-            </p>
-          </div>
-        </div>
-        <div>
-          <div className="group">
-            <CiDatabase
-              size={60}
-              color="#4c24dd"
-              className="group-hover:scale-110  duration-300"
-            />
-            <h2 className="text-[#fff] mt-2 text-2xl font-bold">
-              Database design
-            </h2>
-            <p
-              className="text-[#5b6876]"
-              style={{ fontSize: "18px", lineHeight: "150%" }}
-            >
-              I have a strong understanding of the database design process and I
-              can build any database from scratch. I have experience with
-              Postgresql.
-            </p>
-          </div>
-          <div className="mt-8 group">
-            <BiPen
-              size={60}
-              color="#4c24dd"
-              className="group-hover:scale-110  duration-300"
-            />
-            <h2 className="text-[#fff] mt-2 text-2xl font-bold">
-              Content Writing
-            </h2>
-            <p
-              className="text-[#5b6876]"
-              style={{ fontSize: "18px", lineHeight: "150%" }}
-            >
-              I have a strong understanding of the content writing process and I
-              can write any content from scratch. I have experience with writing
-              articles, blogs, and essays.
-            </p>
-          </div>
-        </div>
       </div>
    
 
-</div>
 
 
 
@@ -142,10 +135,7 @@ const About = () => {
 
 
 
-
-
-    </div>
-
+         
   )
 }
 

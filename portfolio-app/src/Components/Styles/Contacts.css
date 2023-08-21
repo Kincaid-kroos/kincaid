@@ -19,7 +19,9 @@
 
     }
   }
-
+  .bold-contact{
+    color: #ff8f00;
+  }
   .hr-line {
     color:white
     
@@ -59,7 +61,7 @@
     font-weight: bold;
     width: 100px; /* Adjust as needed */
     margin-right: 20px;
-    color: chocolate;
+    color: #ff8f00;
   }
   
   .value {
