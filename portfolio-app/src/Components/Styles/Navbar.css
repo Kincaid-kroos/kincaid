@@ -2,7 +2,8 @@
     background-color:#0A1929;
     padding-top: 10px;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
   }
  
@@ -12,6 +13,7 @@
     color:#27AE60;
     margin-left: 25px;
     font-size: 30px;
+    
     
   }
   @media screen and (max-width: 600px) {
@@ -26,7 +28,7 @@
   .navbar-nav {
     display: flex;
     align-items: center;
-    margin-right: 165px;
+    margin-right: 125px;
    
 
   }
@@ -121,12 +123,7 @@
 .text-hover {
   color:white;
 }
-.text-hover:hover {
-  color: #ff8f00;
-}
-.text-hover:visited {
-  color: #ff8f00;
-}
+
 
 
 

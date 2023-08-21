@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
         <hr className="my-0 hr-line" />
-      <h1>Contact Me</h1>
+      <h1>Contact <b className='bold-contact'>Me</b></h1>
       <section className='styled-section'>
         <div className="contact-info">
           <p className="label">Email:</p>
