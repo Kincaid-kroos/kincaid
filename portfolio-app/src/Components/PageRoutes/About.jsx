@@ -3,18 +3,37 @@ import { BiPen } from 'react-icons/bi';
 import { CiDatabase } from 'react-icons/ci';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { IoMdCodeWorking } from 'react-icons/io';
+import SkillBar from "../Hocs/Skillbar";
 
 const About = () => {
+   
+  const skills = [
+      {skill:'JavaScript', percentage: 80},
+      {skill:'Python', percentage: 80},
+      {skill:'TypeScript', percentage: 80},
+      {skill:'ReactJS', percentage: 80},
+      {skill:'Django', percentage: 80},
+      {skill:'HTML', percentage: 80},
+      {skill:'CSS', percentage: 80},
+      {skill:'GraphQL', percentage: 80},
+      {skill:'PostgreSQL', percentage: 80},
+      {skill:'MYSQL', percentage: 80},
+      {skill:'NextJS', percentage: 80},
+      {skill:'AWS', percentage: 80},
+
+
+  ]
+
   return (
     <div>
           <h1 className="mt-30">About <b className="bold-header">Me</b></h1>
       <div>
         <p className="about-me">
           <p className="about-me-1">Who am I ?</p>
-          I'm a Software developer and suddenly data analyst<br/>
+          I&apos;m a Software developer and suddenly data analyst<br/>
           with a Bsc in Computer Science and Statistics. I have worked<br/>
           with various tools and technologies in both fields to <br/>
-          innovative and impactful solutions. Above all i'm a lifelong <br/>
+          innovative and impactful solutions. Above all i&apos;m a lifelong <br/>
           tech learner and committed to constantly improving my skills <br/>
           and contributing to development of tech community.
         </p>
@@ -26,7 +45,7 @@ const About = () => {
        <p className="stack-header">Stack:</p>
        <p className="stack-p">
        JavaScript, React Js, Python, Django, TypeScript, Bootstrap, RESTful APIs, GraphQL, <br/> 
-       Tailwind, MYSQL, PostgreSQL, CSS, HTML, Git, AWS, SPSS,Excel,SQL.
+       Tailwind, NextJS, MYSQL, PostgreSQL, CSS, HTML, Git, AWS, SPSS, Excel, SQL.
        </p>
         </div> 
       </div>
@@ -89,26 +108,11 @@ const About = () => {
 
     
     <div className="container">
-    <h1>About Me</h1>
-    <div className="stack-container">
+    <h2>About Me</h2>
+      {skills.map((skillset,index) => (
+        <SkillBar key={index} skill={skillset.skill} percentage={skillset.percentage} />
+      ))}
     
-   
-       <div>
-           <h2 className="tech-stack" style={{ color: "green" }}> My Tech Stack </h2>
-       </div>
-  <div className=" text-center skills">
-             <div className="skill-card main">Software Development</div>
-             <div className="skill-card">Javascript/TypeScript</div>
-             <div className="skill-card">HTML&CSS</div>
-             <div className="skill-card">Python</div>
-             <div className="skill-card">React js</div>
-             <div className="skill-card">Django</div>
-             <div className="skill-card">Node Js & The Express Framework</div>
-             <div className="skill-card">PostgreSQL/MySQL
-          </div>
-       </div>
-    </div>
-    </div>
 
       </div>
    
@@ -135,7 +139,7 @@ const About = () => {
 
 
 
-         
+         </div>
   )
 }
 
