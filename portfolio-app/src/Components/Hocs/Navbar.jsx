@@ -35,21 +35,21 @@ const Navbar = () => {
              </button>
 
       <div className="collapse navbar-collapse" >
-        <ul className='navbar-nav ms-auto mb-2 mb-lg-0' >
+        <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
             <li className= "nav-item .text-warning-emphasis">
-               <NavLink className="nav-link text-hover" aria-current="page" to="/">Home</NavLink>
+               <NavLink className="nav-link text-hover" aria-current="page" to="/" >HOME</NavLink>
             </li>
             <li className="nav-item">
-                        <NavLink className="nav-link text-hover" to="/about" >About</NavLink>
+                        <NavLink className="nav-link text-hover" to="/about">ABOUT</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-hover" to="/projects">Projects</NavLink>
+              <NavLink className="nav-link text-hover" to="/projects">PROJECTS</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-hover" to="/resume" >Resume</NavLink>
+              <NavLink className="nav-link text-hover" to="/resume" >RESUME</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-hover" to="/contact">Contact</NavLink>
+              <NavLink className="nav-link text-hover" to="/contact">CONTACT</NavLink>
             </li>
           </ul> 
           <p className="styled-contact">  <SettingsPhoneIcon className='call-settings' />  +254 701 218 138</p>
@@ -63,7 +63,7 @@ const Navbar = () => {
         <div className="modal-content">
            <ul className={`navbar-nav ms-auto mb-2 mb-lg-0 `}>
             <li className= "nav-item .text-warning-emphasis">
-               <NavLink className="nav-link home-link  " aria-current="page" to="/" onClick={closeToggle}>Home</NavLink>
+               <NavLink className="nav-link " aria-current="page" to="/" onClick={closeToggle}>Home</NavLink>
             </li>
             
             <li className="nav-item">

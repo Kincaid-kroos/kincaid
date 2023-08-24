@@ -207,3 +207,20 @@
 .skillset-header {
   color: #27AE60;
 }
+
+
+
+.skills-header {
+  margin-left: 160px;
+  color: #27AE60;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  
+}
+@media screen and (max-width: 600px) {
+  .skills-header {
+      margin-left: 15px;
+      margin-bottom: 20px;
+  }
+}

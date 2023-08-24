@@ -121,8 +121,20 @@
 }
 
 .text-hover {
-  color:white;
+  color:rgb(107, 201, 19);
 }
+.text-hover {
+  color: rgb(107, 201, 19);
+}
+
+.text-hover:active,
+.text-hover.active {
+  color: rgb(253, 97, 7);
+}
+.active {
+  color: #ff8f00;
+}
+
 
 
 
