@@ -10,16 +10,16 @@ const About = () => {
   const skills = [
       {skill:'JavaScript', percentage: 80},
       {skill:'Python', percentage: 80},
-      {skill:'TypeScript', percentage: 80},
+      {skill:'TypeScript', percentage: 70},
       {skill:'ReactJS', percentage: 80},
       {skill:'Django', percentage: 80},
-      {skill:'HTML', percentage: 80},
-      {skill:'CSS', percentage: 80},
-      {skill:'GraphQL', percentage: 80},
+      {skill:'HTML', percentage: 95},
+      {skill:'CSS', percentage: 90},
+      {skill:'Git', percentage: 95},
       {skill:'PostgreSQL', percentage: 80},
       {skill:'MYSQL', percentage: 80},
-      {skill:'NextJS', percentage: 80},
-      {skill:'AWS', percentage: 80},
+      {skill:'NextJS', percentage: 70},
+      {skill:'AWS', percentage: 70},
 
 
   ]
@@ -30,12 +30,12 @@ const About = () => {
       <div>
         <p className="about-me">
           <p className="about-me-1">Who am I ?</p>
-          I&apos;m a Software developer and suddenly data analyst<br/>
-          with a Bsc in Computer Science and Statistics. I have worked<br/>
-          with various tools and technologies in both fields to <br/>
-          innovative and impactful solutions. Above all i&apos;m a lifelong <br/>
-          tech learner and committed to constantly improving my skills <br/>
-          and contributing to development of tech community.
+          I&apos;m a Software developer and suddenly Data analyst<br/>
+          with a Bsc in Computer Science and Statistics.<br/> I have worked
+          with various tools and technologies <br/>in both fields to build 
+          innovative and impactful solutions.<br/> Above all i&apos;m a lifelong 
+          tech learner and committed to<br/> constantly improving my skills 
+          and contributing<br/> to development of tech community.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ const About = () => {
        <p className="stack-header">Stack:</p>
        <p className="stack-p">
        JavaScript, React Js, Python, Django, TypeScript, Bootstrap, RESTful APIs, GraphQL, <br/> 
-       Tailwind, NextJS, MYSQL, PostgreSQL, CSS, HTML, Git, AWS, SPSS, Excel, SQL.
+       Tailwind, NextJS, MySQL, PostgreSQL, CSS, HTML, Git, AWS, SPSS, Excel, SQL.
        </p>
         </div> 
       </div>
@@ -107,8 +107,8 @@ const About = () => {
       
 
     
-    <div className="container">
-    <h2>About Me</h2>
+    <div>
+    <h2 className="skills-header">Skills</h2>
       {skills.map((skillset,index) => (
         <SkillBar key={index} skill={skillset.skill} percentage={skillset.percentage} />
       ))}
