@@ -1,5 +1,5 @@
 import{Link,NavLink} from 'react-router-dom';
-import { useState } from 'react';
+import { useState} from 'react';
 import '../Styles/Navbar.css';
 import SettingsPhoneIcon from '@mui/icons-material/SettingsPhone';
 import { Modal } from '@mui/material';
@@ -8,6 +8,7 @@ const Navbar = () => {
 
   const [isNavOpen, setIsNavOpen] = useState(false);
   
+
   const openToggle = () => {
     setIsNavOpen(true);
   };
@@ -20,7 +21,7 @@ const Navbar = () => {
   return (
 
 
-    <nav className="navbar navbar-expand-lg custom-navbar">
+    <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
         <Link className="navbar-brand name-color" to="/">
           Kiprotich Kincaid
@@ -31,25 +32,25 @@ const Navbar = () => {
                 data-bs-toggle="collapse" 
                 aria-expanded={isNavOpen} 
                 aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span> 
              </button>
 
       <div className="collapse navbar-collapse" >
-        <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
+        <ul className='navbar-nav ms-auto mb-2 mb-lg-0' id='custom-navbar-nav'>
             <li className= "nav-item .text-warning-emphasis">
                <NavLink className="nav-link text-hover" aria-current="page" to="/" >HOME</NavLink>
             </li>
             <li className="nav-item">
-                        <NavLink className="nav-link text-hover" to="/about">ABOUT</NavLink>
+                        <NavLink className="nav-link text-hover " to="/about">ABOUT</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-hover" to="/projects">PROJECTS</NavLink>
+              <NavLink className="nav-link text-hover " to="/projects">PROJECTS</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-hover" to="/resume" >RESUME</NavLink>
+              <NavLink className="nav-link text-hover " to="/resume" >RESUME</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link text-hover" to="/contact">CONTACT</NavLink>
+              <NavLink className="nav-link text-hover" activeClassName="active-nav-link" to="/contact">CONTACT</NavLink>
             </li>
           </ul> 
           <p className="styled-contact">  <SettingsPhoneIcon className='call-settings' />  +254 701 218 138</p>
