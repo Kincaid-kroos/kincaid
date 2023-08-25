@@ -16,6 +16,9 @@
     
     
   }
+  .name-color:hover {
+    color: #ff8f00;
+  }
   @media screen and (max-width: 600px) {
     /* Styles for small screens */
     .name-color {
@@ -41,8 +44,12 @@
     }
     
   .navbar-nav li {
-    color: black;
+    color: #27AE60;
   }
+  .navbar-nav li:hover{
+    color: #ff8f00;
+  }
+
   }
   
   
@@ -121,21 +128,9 @@
 }
 
 .text-hover {
-  color:rgb(107, 201, 19);
-}
-.text-hover {
   color: rgb(107, 201, 19);
 }
-
-.text-hover:active,
-.text-hover.active {
+.text-hover:hover{
   color: rgb(253, 97, 7);
 }
-.active {
-  color: #ff8f00;
-}
-
-
-
-
 
