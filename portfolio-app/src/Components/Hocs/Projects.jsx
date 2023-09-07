@@ -35,7 +35,7 @@ const projects = [
     },
     {
         id: 4,
-        label: 'Instaverse App',
+        label: 'Instaverse App', 
         image: tes,
         github: 'https://github.com/Festorz/Mern-app-React-',
         server: 'https://instaverse-node.netlify.app/',
