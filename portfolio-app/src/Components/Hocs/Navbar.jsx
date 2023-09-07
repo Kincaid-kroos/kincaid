@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
         <Link className="navbar-brand name-color" to="/">
-          Kiprotich Kincaid
+          Kiprotich <b>Kincaid</b>
         </Link>
             <button className="navbar-toggler" 
                 type="button"
@@ -36,7 +36,7 @@ const Navbar = () => {
              </button>
 
       <div className="collapse navbar-collapse" >
-        <ul className='navbar-nav ms-auto mb-2 mb-lg-0' id='custom-navbar-nav'>
+        <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
             <li className= "nav-item .text-warning-emphasis">
                <NavLink className="nav-link text-hover" aria-current="page" to="/" >HOME</NavLink>
             </li>

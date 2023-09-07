@@ -10,14 +10,18 @@
   
 
   .name-color{
-    color:#27AE60;
+    color: #ff8f00;
     margin-left: 25px;
     font-size: 30px;
+    font-weight: bold;
     
     
   }
   .name-color:hover {
     color: #ff8f00;
+  }
+  .name-color b {
+    color: #27AE60;
   }
   @media screen and (max-width: 600px) {
     /* Styles for small screens */
@@ -112,6 +116,8 @@
   background-color: white;
   box-shadow: 24px;
   padding: 4px;
+  border-radius: 10px;
+  border: 2px solid rgba(0,0,0,0.5);
 }
 
 .modal-content {

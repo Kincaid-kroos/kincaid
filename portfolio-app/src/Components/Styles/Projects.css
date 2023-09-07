@@ -22,7 +22,7 @@
 }
 
 .project-box {
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
   width: calc(33.33% - 10px); /* 3 images in a row with some spacing */
@@ -50,7 +50,7 @@
   height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -60,7 +60,7 @@
  .img-size {
     height: 400px;
     width:375px;
-    border-radius: 5px;
+    border-radius: 20px;
  }
  @media (max-width: 768px) {
   .img-size {
