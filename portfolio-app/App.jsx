@@ -1,12 +1,12 @@
-import './App.css';
+import './src/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from "./Components/Hocs/Navbar";
-import Home from "./Components/PageRoutes/Home.jsx"; 
-import About from "./Components/PageRoutes/About.jsx"; 
-import Projects from "./Components/PageRoutes/Projects.jsx"; 
-import Resume from "./Components/PageRoutes/Resume.jsx";
-import Contact from "./Components/PageRoutes/Contact.jsx";  
-import Footer from './Components/Hocs/Footer';
+import Navbar from "./src/Components/Hocs/Navbar";
+import Home from "./src/Components/PageRoutes/Home.jsx"; 
+import About from "./src/Components/PageRoutes/About.jsx"; 
+import Projects from "./src/Components/PageRoutes/Projects.jsx"; 
+import Resume from "./src/Components/PageRoutes/Resume.jsx";
+import Contact from "./src/Components/PageRoutes/Contact.jsx";  
+import Footer from './src/Components/Hocs/Footer';
 
 const App = () => {
   return (
