@@ -19,8 +19,8 @@ const Footer = () => {
         </footer>
         <ul className='socio-icons no-bullets text-center'>
           <li> <a href='https://www.facebook.com/kinc.kroos'>< FacebookIcon className="icon-color" /></a></li>
-          <li> <a href='https://twitter.com/kiprotichkinca1'><TwitterIcon  className="icon-color"/></a></li> 
-          <li> <a href='www.linkedin.com/in/kiprotich-kincaid-b50664203'><LinkedInIcon  className="icon-color"/></a></li>
+          <li> <a href='https://twitter.com/Kincaid_Kroos'><TwitterIcon  className="icon-color"/></a></li> 
+          <li> <a href='https://www.linkedin.com/in/kiprotich-kincaid-b50664203/'><LinkedInIcon  className="icon-color"/></a></li>
           <li> <a href='https://github.com/Kincaid-kroos/kincaid'> <GitHubIcon className="icon-color"/></a></li>
         </ul>
 

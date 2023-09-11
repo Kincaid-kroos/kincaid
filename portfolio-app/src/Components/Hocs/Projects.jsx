@@ -1,36 +1,36 @@
-import breakfast from '../images/Kincaid.jpg';
-import tas from '../images/Kincaid.jpg';
+import portfolio from '../images/Portfolio.jpeg';
+import greenhubsoko from '../images/greenhubsoko.png';
 import tes from '../images/Kincaid.jpg';
 import tos from '../images/Kincaid.jpg';
 import tus from '../images/Kincaid.jpg';
-import Portfolio from '../images/Frontend.jpeg';
+import tas from '../images/Frontend.jpeg';
 
 const projects = [
     {
         id: 1,
-        label: 'Breakfast Recipes App',
-        image: breakfast,
-        github: 'https://github.com/Festorz/BreakFast-recipes-app---Flutter',
-        server: 'https://play.google.com/store/apps/details?id=com.coolrecipes.breakfast.recipes',
-        tech: 'Dart Flutter, API'
+        label: 'greehhubsoko web app',
+        image: greenhubsoko,
+        github: 'https://github.com/Kincaid-kroos/GreenHub-Soko',
+        server: 'https://greenhubsoko.vercel.app/',
+        tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)'
 
     },
     {
         id: 2,
-        label: 'Soccer Web Application',
-        image: Portfolio,
-        github: 'https://github.com/Festorz/football-analysis-application-django',
-        server: 'https://objective-almeida-e0f012.netlify.app/',
-        tech: 'Python Django, React JS'
+        label: 'Portfolio Web',
+        image: portfolio,
+        github: 'https://github.com/Kincaid-kroos/kincaid',
+        server: 'https://kiprotichkincaid.vercel.app/',
+        tech: 'JavaScript ReactJs, Vite, HTML, CSS'
 
     },
     {
         id: 3,
-        label: 'Mkulima Business App',
+        label: 'recipes-kincaid web app',
         image: tas,
-        github: 'https://github.com/Festorz/Farming-App---Dart-Flutter',
-        server: 'https://play.google.com/store/apps/details?id=com.jordandevs.apps.mkulima',
-        tech: 'NodeJS, Express, AWS, Flutter, '
+        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
+        server: 'https://recipes-kincaid.vercel.app/',
+        tech: 'ReactJs, API , Bootstrap , Tailwind'
 
     },
     {
