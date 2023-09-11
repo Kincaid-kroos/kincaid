@@ -48,13 +48,13 @@ const Projects = () => {
                                         Tech: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.tech}</b>
                                     </p>
                                     <div>
-                                        <Link to={project.github} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }} className="text-dark"> 
+                                        <Link to={project.github} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }} className="text-primary"> 
                                              Github < GitHubIcon  className="text-dark"/>
                                         </Link>
                                     </div>
                                     <div>
-                                        <Link to={project.server} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }}  className="text-dark">
-                                           Click to View <OpenInBrowser className="text-dark" />
+                                        <Link to={project.server} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }}  className="text-primary">
+                                           View Demo<OpenInBrowser className="text-dark" />
                                         </Link>
                                     </div>
                                 </div>
