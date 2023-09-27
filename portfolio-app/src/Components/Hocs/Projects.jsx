@@ -1,5 +1,6 @@
 import portfolio from '../images/Portfolio.jpeg';
 import greenhubsoko from '../images/greenhubsoko.png';
+import greenhubsokovideo  from '../images/greenhubsoko.mp4';
 import tes from '../images/Kincaid.jpg';
 import tos from '../images/Kincaid.jpg';
 import tus from '../images/Kincaid.jpg';
@@ -12,7 +13,8 @@ const projects = [
         image: greenhubsoko,
         github: 'https://github.com/Kincaid-kroos/GreenHub-Soko',
         server: 'https://greenhubsoko.vercel.app/',
-        tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)'
+        tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
+        video: greenhubsokovideo
 
     },
     {
