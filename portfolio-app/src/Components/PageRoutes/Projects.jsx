@@ -1,7 +1,7 @@
 import "../Styles/Projects.css";
 import projects from "../Hocs/Projects.jsx"; 
 import { useState } from "react";
-import {Link} from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowser from '@mui/icons-material/OpenInBrowser';
 
@@ -9,9 +9,11 @@ import OpenInBrowser from '@mui/icons-material/OpenInBrowser';
 
 
 const Projects = () => {
+    const navigation = useNavigate();
+
     const [showModal, setShowModal] = useState(false);
     const [showId, setShowId] = useState(0);
-
+   
     const MouseOverhandler = (id) => {
         setShowModal(true);
         setShowId(id);
@@ -21,6 +23,14 @@ const Projects = () => {
         setShowModal(false);
         setShowId(0);
     }
+
+     // This is  the function to navigate to the Videopage component page 
+  const navigateToVideoPage = (projectId) => {
+    navigation(`/videopage/${projectId}`);
+  };
+
+
+    
 
     return (
         <div className="">
@@ -58,10 +68,11 @@ const Projects = () => {
                                         </Link>
                                     </div>
                                     <div>
-                                    <p style={{ color: '#27AE60', fontSize: '16px' }}>
-                                        Video: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.video}</b>
-                                    </p>
+                                        <button onClick={() => navigateToVideoPage(project.id)}>
+                                            Click video
+                                        </button>
                                     </div>
+                                  
                                 </div>
                             )}
                         </div>
