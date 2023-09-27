@@ -57,6 +57,11 @@ const Projects = () => {
                                            View Demo<OpenInBrowser className="text-dark" />
                                         </Link>
                                     </div>
+                                    <div>
+                                    <p style={{ color: '#27AE60', fontSize: '16px' }}>
+                                        Video: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.video}</b>
+                                    </p>
+                                    </div>
                                 </div>
                             )}
                         </div>
