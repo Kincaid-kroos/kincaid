@@ -9,11 +9,12 @@ import tas from '../images/Frontend.jpeg';
 const projects = [
     {
         id: 1,
-        label: 'greehhubsoko web app',
+        label: 'greenhubsoko web app',
         image: greenhubsoko,
         github: 'https://github.com/Kincaid-kroos/GreenHub-Soko',
         server: 'https://greenhubsoko.vercel.app/',
         tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
+        status: 'Deployed + video',
         video: greenhubsokovideo
 
     },
@@ -23,41 +24,46 @@ const projects = [
         image: portfolio,
         github: 'https://github.com/Kincaid-kroos/kincaid',
         server: 'https://kiprotichkincaid.vercel.app/',
-        tech: 'JavaScript ReactJs, Vite, HTML, CSS'
+        tech: 'JavaScript ReactJs, Vite, HTML, CSS',
+        status: 'Deployed'
 
     },
     {
         id: 3,
-        label: 'recipes-kincaid web app',
+        label: 'recipes-kincaid website',
         image: tas,
         github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
         server: 'https://recipes-kincaid.vercel.app/',
-        tech: 'ReactJs, API , Bootstrap , Tailwind'
+        tech: 'ReactJs, API , Bootstrap , Tailwind',
+        status: 'Deployed'
 
     },
     {
         id: 4,
-        label: 'Instaverse App', 
+        label: 'GreenHubNews web app', 
         image: tes,
-        github: 'https://github.com/Festorz/Mern-app-React-',
-        server: 'https://instaverse-node.netlify.app/',
-        tech: 'Mongo DB, Express, React Js, NodeJS'
+        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
+        tech: 'ReactJs, HTML, CSS, Bootstrap, Django & Postgresql',
+        status: 'localhost, click the video for Demo',
+        video: greenhubsokovideo
     },
     {
         id: 5,
-        label: 'Correct Scores Website',
+        label: 'Takin Safaris website',
         image: tos,
-        github: 'https://github.com/Festorz/football-analysis-application-django',
-        server: '',
-        tech: 'Django, HTML, CSS, JavaScript'
+        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
+        server: 'https://takin-safaris.vercel.app/',
+        tech: 'ReactJs, Bootstrap, Tailwind, JavaScript, vite',
+        status: 'Deployed'
     },
     {
         id: 6,
-        label: 'Farming App Server',
+        label: 'Notebook Todo web app',
         image: tus,
-        github: 'https://github.com/Festorz/Farming-App-Server---Node-Js',
-        server: 'https://play.google.com/store/apps/details?id=com.jordandevs.apps.mkulima',
-        tech: 'NodeJS, Express, AWS Services'
+        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
+        tech: 'ReactJs, HTML, CSS, Django & Postgresql',
+        status: 'localhost, click the video',
+        video: greenhubsokovideo
     },
 ]
 

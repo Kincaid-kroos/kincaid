@@ -63,17 +63,28 @@ const Projects = () => {
                                         </Link>
                                     </div>
                                     <div>
+                                    {project.server && (
                                         <Link to={project.server} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }}  className="text-primary">
                                            View Demo<OpenInBrowser className="text-dark" />
                                         </Link>
+                                     )}
                                     </div>
+                                <div>
+                                    <p style={{ color: '#27AE60', fontSize: '16px' }}>
+                                        Status: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.status}</b>
+                                    </p>
                                     <div>
-                                        <button onClick={() => navigateToVideoPage(project.id)}>
-                                            Click video
-                                        </button>
-                                    </div>
-                                  
+                                       {project.video && (
+                                          <button onClick={() => navigateToVideoPage(project.id)}
+                                              style={{ color: "#e3f2fd", fontSize: "18px" }}
+                                              className="text-primary">
+                                              Click video
+                                           </button>
+                                        )}
+                                      </div>
                                 </div>
+                                  
+                            </div>
                             )}
                         </div>
                     ))}
