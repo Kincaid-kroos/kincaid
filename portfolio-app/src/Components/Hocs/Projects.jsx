@@ -1,7 +1,8 @@
 import portfolio from '../images/Portfolio.jpeg';
 import greenhubsoko from '../images/greenhubsoko.png';
-import greenhubsokovideo  from '../videos/greenhubsoko.mp4';
-import tes from '../images/Kincaid.jpg';
+import greenhubsokovideo  from '../videos/greenhubSoko.mp4';
+import greenhubnews from '../images/greenhubnews.png';
+import greenhubvideo from '../videos/greenhubnews.mp4';
 import tos from '../images/Kincaid.jpg';
 import tus from '../images/Kincaid.jpg';
 import tas from '../images/Frontend.jpeg';
@@ -15,7 +16,7 @@ const projects = [
         server: 'https://greenhubsoko.vercel.app/',
         tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
         status: 'Deployed + video',
-        video: greenhubsokovideo
+        video: greenhubvideo
 
     },
     {
@@ -41,7 +42,7 @@ const projects = [
     {
         id: 4,
         label: 'GreenHubNews web app', 
-        image: tes,
+        image: greenhubnews,
         github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
         tech: 'ReactJs, HTML, CSS, Bootstrap, Django & Postgresql',
         status: 'localhost, click the video for Demo',
