@@ -16,7 +16,7 @@ const projects = [
         server: 'https://greenhubsoko.vercel.app/',
         tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
         status: 'Deployed + video',
-        video: greenhubvideo,
+        video: greenhubsokovideo,
         describtion:'Get the latest item in town now'
 
     },
@@ -47,7 +47,7 @@ const projects = [
         github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
         tech: 'ReactJs, HTML, CSS, Bootstrap, Django & Postgresql',
         status: 'localhost, click the video for Demo',
-        video: greenhubsokovideo
+        video: greenhubvideo 
     },
     {
         id: 5,
