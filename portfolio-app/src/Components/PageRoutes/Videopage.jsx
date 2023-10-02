@@ -9,12 +9,13 @@ const Videopage = () => {
   const project = projects.find((p) => p.id === Number(projectId));
 
   return (
-    <div>
+    <div className="container mt-10 text-white">
       <h2>{project.label}</h2>
-      <video controls>
+      <video controls  className="video">
         <source src={project.video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <p>{project.describtion}</p>
     </div>
   );
 };
