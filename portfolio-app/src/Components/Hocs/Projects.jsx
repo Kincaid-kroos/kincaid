@@ -1,6 +1,6 @@
 import portfolio from '../images/Portfolio.jpeg';
 import greenhubsoko from '../images/greenhubsoko.png';
-import greenhubsokovideo  from '../videos/greenhubSoko.mp4';
+import greenhubsokovideo  from '../videos/greenhubsoko.mp4';
 import greenhubnews from '../images/greenhubnews.png';
 import greenhubvideo from '../videos/greenhubnews.mp4';
 import tos from '../images/Kincaid.jpg';
