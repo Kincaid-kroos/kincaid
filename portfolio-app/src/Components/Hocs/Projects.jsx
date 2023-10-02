@@ -47,7 +47,9 @@ const projects = [
         github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
         tech: 'ReactJs, HTML, CSS, Bootstrap, Django & Postgresql',
         status: 'localhost, click the video for Demo',
-        video: greenhubvideo 
+        video: greenhubvideo ,
+        describtion:'This is a web application that allows users to access latest news and trends accross the globe, Its uses Django for Backend in retrieving the latest post, the admin panel for adding articles, authentication etc, and ReactJS frontend with other technologies,  '
+
     },
     {
         id: 5,
