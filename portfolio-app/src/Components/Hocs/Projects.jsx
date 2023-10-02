@@ -48,7 +48,7 @@ const projects = [
         tech: 'ReactJs, HTML, CSS, Bootstrap, Django & Postgresql',
         status: 'localhost, click the video for Demo',
         video: greenhubvideo ,
-        describtion:'This is a web application that allows users to access latest news and trends accross the globe, Its uses Django for Backend in retrieving the latest post, the admin panel for adding articles, authentication etc, and ReactJS frontend with other technologies,  '
+        describtion:'This is a web application that allows users to access latest news and trends accross the globe, Its uses Django for Backend in retrieving the latest post, the admin dashboard for adding articles, authentication etc, and ReactJS frontend with other technologies,  '
 
     },
     {
