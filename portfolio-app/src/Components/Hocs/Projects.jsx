@@ -3,7 +3,7 @@ import greenhubsoko from '../images/greenhubsoko.png';
 import greenhubsokovideo  from '../videos/greenhubsoko.mp4';
 import greenhubnews from '../images/greenhubnews.png';
 import greenhubvideo from '../videos/greenhubnews.mp4';
-import notebookvideo from '../videos/notebookkincaid.mp4'
+import notebookvideo from '../videos/Notebookkincaid.mp4'
 import tos from '../images/Kincaid.jpg';
 import notebookimg from '../images/notebookkincaid.png';
 import tas from '../images/Frontend.jpeg';
