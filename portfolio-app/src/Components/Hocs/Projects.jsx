@@ -16,7 +16,8 @@ const projects = [
         server: 'https://greenhubsoko.vercel.app/',
         tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
         status: 'Deployed + video',
-        video: greenhubvideo
+        video: greenhubvideo,
+        describtion:'Get the latest item in town now'
 
     },
     {
