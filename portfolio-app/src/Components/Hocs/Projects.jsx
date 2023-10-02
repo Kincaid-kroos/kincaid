@@ -63,7 +63,7 @@ const projects = [
     },
     {
         id: 6,
-        label: 'Notebook Todo web app',
+        label: 'Notebook web application',
         image: notebookimg,
         github: 'https://github.com/Kincaid-kroos/NotebookFullstack',
         tech: 'ReactJs, HTML, CSS, Django & Postgresql',
