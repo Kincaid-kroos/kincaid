@@ -6,7 +6,7 @@ import '../Styles/Videopage.css';
 const Videopage = () => {
   const { projectId } = useParams();
 
-  // Find the project with the matching projectId from your data
+  //project finding the matching id 
   const project = projects.find((p) => p.id === Number(projectId));
 
   return (
@@ -15,7 +15,7 @@ const Videopage = () => {
       <div className="video-container">
         <video controls className="video">
           <source src={project.video} type="video/mp4" />
-          Your browser does not support the video tag.
+          No browser support for the video.
         </video>
       </div>
       <p>{project.describtion}</p>
