@@ -54,15 +54,6 @@ const projects = [
     },
     {
         id: 5,
-        label: 'Takin Safaris website',
-        image: tos,
-        github: 'https://github.com/Kincaid-kroos/TakinSafaris',
-        server: 'https://takin-safaris.vercel.app/',
-        tech: 'ReactJs, Bootstrap, Tailwind, JavaScript, vite',
-        status: 'Under development'
-    },
-    {
-        id: 6,
         label: 'Notebook web application',
         image: notebookimg,
         github: 'https://github.com/Kincaid-kroos/NotebookFullstack',
@@ -71,6 +62,16 @@ const projects = [
         video: notebookvideo,
         describtion:'This is a simple crud web application that allows a user to add, delete, post or update an stuff. It was the most perfect start to learn full stack crud operations with python Django. It utilizes Django for Backend, PostgreSQl database and ReactJs frontend'
     },
+    {
+        id: 6,
+        label: 'Takin Safaris website',
+        image: tos,
+        github: 'https://github.com/Kincaid-kroos/TakinSafaris',
+        server: 'https://takin-safaris.vercel.app/',
+        tech: 'ReactJs, Bootstrap, Tailwind, JavaScript, vite',
+        status: 'Under development'
+    },
+    
     {
         id: 7,
         label: 'recipes-kincaid website',
