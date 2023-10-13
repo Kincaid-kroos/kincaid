@@ -11,9 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-/src/Components/Styles
-/package.json
-/package-lock.json
 
 # Editor directories and files
 .vscode/*
@@ -25,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/src/components/Styles
+/package.json
+/package-lock.json
