@@ -17,7 +17,7 @@ const projects = [
         label: 'Chaus Barbaque',
         image: chaus,
         github: 'https://github.com/Kincaid-kroos/Chaus-Kitchen',
-        server: 'https://Tassie-Barbaque.vercel.app/',
+        server: 'https://chaus-barbaque.vercel.app/',
         tech: 'ReactJs, Vite, Tailwind CSS',
         status: 'Under dvpt',
         
