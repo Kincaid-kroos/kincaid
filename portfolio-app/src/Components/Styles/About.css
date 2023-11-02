@@ -1,0 +1,226 @@
+.stack-container {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin:10px 10px 10px 10px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .skill-card {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+.bold-header{
+  color: #ff8f00;
+}
+
+  .about-me {
+    margin-left: 160px;
+    list-style-type: none;
+    color: white;
+    margin-top: 20px;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .about-me{
+        margin-left: 15px;
+    }
+  }
+
+  .about-me-1 {
+    font-weight: bolder;
+    font-size: large;
+    color: #ff8f00;
+  }
+  
+  .tech-stack-header {
+    margin-left: 160px;
+    color: #27AE60;
+    margin-top: 30px;
+    font-weight: bolder;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .tech-stack-header {
+        margin-left: 15px;
+    }
+  }
+
+
+
+  .stack {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .stack-header {
+    margin-left: 160px;
+    color: #ff8f00;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 600px) {
+    .stack-header {
+      margin-left: 15px;
+    }
+  }
+
+  
+  .stack-p {
+    flex-grow: 1;
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  
+  .skillset-p {
+    color: white;
+    margin-left: 160px;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 600px) {
+    .skillset-p {
+      margin-left: 15px;
+    }
+  }
+
+
+.skillset {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  
+
+}
+
+
+
+.frontend-skillset{
+  color: white;
+  margin-left: 160px;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  margin-right: 25px;
+  width: 500px;
+  border: 2px solid rgba(0,0,0,0.3);
+  height: 200px;
+  margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+.backend-skillset{
+  color: white;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 500px;
+  border: 2px solid rgba(0,0,0,0.3);
+  height: 200px;
+  margin-bottom: 20px;
+  
+}
+  
+@media (max-width: 600px) {
+  .frontend-skillset{
+    margin-left: 15px; 
+    width: auto;
+    height: max-content;
+    flex-direction: column;
+    
+  }
+}
+  
+@media (max-width: 600px) {
+  .backend-skillset {
+    margin-left: 15px; 
+    width: auto;
+    height: max-content;
+    flex-direction: column;
+  }
+} 
+
+.database-skillset {
+  color: white;
+  margin-left: 160px;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-right: 35px;
+  border: 2px solid rgba(0,0,0,0.3);
+  width: 500px;
+  height: 200px;
+  margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+.dataanalysis-skillset {
+  color: white;
+  border: 2px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+
+}
+
+@media (max-width: 600px) {
+  .database-skillset{
+    margin-left: 15px; 
+    width: auto;
+    height: max-content;
+    flex-direction: column;
+    
+  }
+}
+  
+@media (max-width: 600px) {
+  .dataanalysis-skillset {
+    margin-left: 15px; 
+    width: auto;
+    height: max-content;
+    flex-direction: column;
+  }
+}
+
+.design {
+  color: #ff8f00;
+  height: 50px;
+  width: 50px;
+
+}
+
+.skillset-header {
+  color: #27AE60;
+}
+
+
+
+.skills-header {
+  margin-left: 160px;
+  color: #27AE60;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  
+}
+@media screen and (max-width: 600px) {
+  .skills-header {
+      margin-left: 15px;
+      margin-bottom: 20px;
+  }
+}

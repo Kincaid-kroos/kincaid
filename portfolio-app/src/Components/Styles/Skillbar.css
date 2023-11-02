@@ -1,0 +1,45 @@
+
+
+.skillbar-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 160px;
+}
+@media screen and (max-width: 600px) {
+    .skillbar-content {
+        margin-left: 15px;
+    }
+}
+
+.skillbar-style {
+    color: #ff8f00;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-left: 160px;
+}
+
+@media screen and (max-width: 600px) {
+    .skillbar-style {
+        margin-left: 15px;
+    }
+}
+
+.skillbar-linear {
+    height: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .skillbar-linear {
+        width: 80%;
+    }
+}
+
+
+
+.percentage {
+    color: rgb(64, 209, 28);
+    margin-left: 15px;
+}
