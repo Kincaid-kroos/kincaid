@@ -5,12 +5,24 @@ import greenhubnews from '../images/greenhubnews.png';
 import greenhubvideo from '../videos/greenhubnews.mp4';
 import notebookvideo from '../videos/Notebookkincaid.mp4'
 import tos from '../images/Kincaid.jpg';
+import chaus from '../images/Chaus.png'
 import notebookimg from '../images/notebookkincaid.png';
 import toastify from '../images/toastify.png';
 
 const projects = [
     {
         id: 1,
+        label: 'Chaus Barbaque',
+        image: chaus,
+        github: 'https://github.com/Kincaid-kroos/Chaus-Kitchen',
+        server: 'https://Tassie-Barbaque.vercel.app/',
+        tech: 'ReactJs, Vite, Tailwind CSS',
+        status: 'Deployed',
+        
+
+    },
+    {
+        id: 2,
         label: 'greenhubsoko web app',
         image: greenhubsoko,
         github: 'https://github.com/Kincaid-kroos/GreenHub-Soko',
@@ -22,7 +34,7 @@ const projects = [
 
     },
     {
-        id: 2,
+        id: 3,
         label: 'Portfolio Web',
         image: portfolio,
         github: 'https://github.com/Kincaid-kroos/kincaid',
@@ -32,7 +44,7 @@ const projects = [
 
     },
     {
-        id: 3,
+        id: 4,
         label: 'GreenHubNews web app', 
         image: greenhubnews,
         github: 'https://github.com/Kincaid-kroos/GreenHubNews_Full-stack',
@@ -44,7 +56,7 @@ const projects = [
     },
     
     {
-        id: 4,
+        id: 5,
         label: 'react-toastify website',
         image: toastify,
         github: 'https://github.com/Kincaid-kroos/react-toaster',
@@ -53,7 +65,7 @@ const projects = [
         status: 'Deployed'
     },
     {
-        id: 5,
+        id: 6,
         label: 'Notebook web application',
         image: notebookimg,
         github: 'https://github.com/Kincaid-kroos/NotebookFullstack',
@@ -63,8 +75,18 @@ const projects = [
         describtion:'This is a simple crud web application that allows a user to add, delete, post or update an stuff. It was the most perfect start to learn full stack crud operations with python Django. It utilizes Django for Backend, PostgreSQl database and ReactJs frontend'
     },
     {
-        id: 6,
-        label: 'Takin Safaris website',
+        id: 7,
+        label: 'recipes-kincaid website',
+        image: tos,
+        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
+        server: 'https://recipes-kincaid.vercel.app/',
+        tech: 'ReactJs, API , Bootstrap , Tailwind',
+        status: 'Deployed'
+
+    },
+    {
+        id: 8,
+        label: 'Takin Safaris',
         image: tos,
         github: 'https://github.com/Kincaid-kroos/TakinSafaris',
         server: 'https://takin-safaris.vercel.app/',
@@ -72,34 +94,25 @@ const projects = [
         status: 'Under development'
     },
     
-    {
-        id: 7,
-        label: 'recipes-kincaid website',
-        image: tos,
-        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
-        server: 'https://recipes-kincaid.vercel.app/',
-        tech: 'ReactJs, API , Bootstrap , Tailwind',
-        status: 'Under development'
-
-    },
+   
 
 
     {
-        id: 8,
+        id: 9,
         label: 'Dustin BNB reservation system',
         image: tos,
         github: 'https://github.com/Kincaid-kroos/Dustin-reservation-system',
         tech: 'Django, Tailwind, PostgreSQL, ReactJs',
         status: 'Under development'
     },
-    {
-        id: 9,
-        label: 'Vegee`s Ecommerce',
-        image: tos,
-        github: 'https://github.com/Kincaid-kroos/Dustin-reservation-system',
-        tech: 'Django, Tailwind, PostgreSQL, ReactJs',
-        status: 'Under development'
-    },
+    //{
+       // id: 9,
+        //label: 'Vegee`s Ecommerce',
+        //image: tos,
+        //github: 'https://github.com/Kincaid-kroos/Dustin-reservation-system',
+        //tech: 'Django, Tailwind, PostgreSQL, ReactJs',
+        //status: 'Under development'
+   // },
 
 ]
 
