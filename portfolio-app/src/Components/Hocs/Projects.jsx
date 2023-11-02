@@ -8,6 +8,8 @@ import tos from '../images/Kincaid.jpg';
 import chaus from '../images/Chaus.png'
 import notebookimg from '../images/notebookkincaid.png';
 import toastify from '../images/toastify.png';
+import Coming from '../images/coming.png';
+
 
 const projects = [
     {
@@ -17,7 +19,7 @@ const projects = [
         github: 'https://github.com/Kincaid-kroos/Chaus-Kitchen',
         server: 'https://Tassie-Barbaque.vercel.app/',
         tech: 'ReactJs, Vite, Tailwind CSS',
-        status: 'Deployed',
+        status: 'Under dvpt',
         
 
     },
@@ -27,7 +29,7 @@ const projects = [
         image: greenhubsoko,
         github: 'https://github.com/Kincaid-kroos/GreenHub-Soko',
         server: 'https://greenhubsoko.vercel.app/',
-        tech: 'ReactJs, Vite, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
+        tech: 'ReactJs, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
         status: 'Deployed + video',
         video: greenhubsokovideo,
         describtion:'Get the latest item in town now with GreenHubSoko'
@@ -87,10 +89,10 @@ const projects = [
     {
         id: 8,
         label: 'Takin Safaris',
-        image: tos,
+        image: Coming,
         github: 'https://github.com/Kincaid-kroos/TakinSafaris',
         server: 'https://takin-safaris.vercel.app/',
-        tech: 'ReactJs, Bootstrap, Tailwind, JavaScript, vite',
+        tech: 'ReactJs, Tailwind CSS, Django, PostgreSQL',
         status: 'Under development'
     },
     
@@ -100,9 +102,9 @@ const projects = [
     {
         id: 9,
         label: 'Dustin BNB reservation system',
-        image: tos,
+        image: Coming,
         github: 'https://github.com/Kincaid-kroos/Dustin-reservation-system',
-        tech: 'Django, Tailwind, PostgreSQL, ReactJs',
+        tech: 'Django, Tailwind CSS, PostgreSQL, ReactJs',
         status: 'Under development'
     },
     //{

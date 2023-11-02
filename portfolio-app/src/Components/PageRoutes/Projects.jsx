@@ -78,7 +78,7 @@ const Projects = () => {
                                           <button onClick={() => navigateToVideoPage(project.id)}
                                               style={{ color: "#e3f2fd", fontSize: "18px" }}
                                               className="text-primary">
-                                              Click video
+                                              Video Demo
                                            </button>
                                         )}
                                       </div>

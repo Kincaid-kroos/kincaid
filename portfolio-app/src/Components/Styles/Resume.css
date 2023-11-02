@@ -1,0 +1,111 @@
+.resume h1 {
+color: #27AE60;
+
+  }
+  @media screen and (max-width: 600px) {
+    .resume h1 {
+        font-size: 28px;
+    }
+  }
+  .i {
+    color: #ff8f00;
+  }
+  .resume h2 {
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  @media screen and (max-width: 600px) {
+    .resume h2 {
+        margin-left: 10px;
+
+    }
+  }
+  .course {
+    margin-left: 100px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff8f00;
+    text-transform: capitalize;
+  }
+  @media screen and (max-width: 600px) {
+    .course {
+        margin-left: 10px;
+
+    }
+  }
+  .b {
+    color: #27AE60;
+  }
+  .dates {
+    margin-left: 100px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px;
+    background-color:rgb(87, 81, 81);
+    width: fit-content;
+  }
+  @media screen and (max-width: 600px) {
+    .dates {
+        margin-left: 10px; 
+        font-size: 20px;
+    }
+  }
+  .grade {
+    color: #ff8f00;
+    font-size: 18px;
+    margin-left: 100px;
+  }  
+  .grade b{
+    color: #27AE60;
+  }
+  @media screen and (max-width: 600px){
+    .grade {
+        margin-left: 10px;
+    }
+  }
+  .course-list {
+    margin-left: 120px;
+    list-style-type: none;
+    
+  }
+  @media screen and (max-width: 600px) {
+    .course-list{
+        margin-left: 15px;
+    }
+  }
+  
+  .cert-1 {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff8f00;
+  }
+
+@media screen and (max-width: 600px) {
+    .cert-1 {
+        margin-left: 10px;
+    }
+}
+  
+.image {
+    width: 200px;
+    height: 100px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+    .image {
+        margin-left: 20px;
+        
+    }
+}
+  
+
+.List-icon {
+    
+    color: rgb(166, 255, 0);
+}

@@ -1,0 +1,142 @@
+.custom-navbar {
+    background-color:#0A1929;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+  }
+ 
+  
+
+  .name-color{
+    color: #ff8f00;
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+  }
+  .name-color:hover {
+    color: #ff8f00;
+  }
+  .name-color b {
+    color: #27AE60;
+  }
+  @media screen and (max-width: 600px) {
+    /* Styles for small screens */
+    .name-color {
+      font-size:25px;
+      margin-right: 0;
+      margin-left: 0;
+    
+    }
+  }
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 125px;
+   
+
+  }
+  @media screen and (max-width: 600px) {
+    .navbar-nav {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-end; /* Align items to the left */
+      margin-right: 0; /* Reset margin */
+      justify-content: flex-end; /* Move items to the right */
+    }
+    
+  .navbar-nav li {
+    color: #27AE60;
+  }
+  .navbar-nav li:hover{
+    color: #ff8f00;
+  }
+
+  }
+  
+  
+  .navbar-nav li {
+    margin-right: 35px;
+    gap: 10px;
+
+  }
+  
+  
+
+.navbar-toggler-icon {
+    background-color: white; /* Set the background color of the toggler icon bars to white */
+  }
+  
+  .navbar-toggler-icon span {
+    background-color: #27AE60; /* Set the color of the toggler icon lines to black */
+  }
+  /*creating a gap of 20px in between Home link and Kiprotich Kincaid*/
+.navbar-nav .home-link {
+    margin-left: 50px;
+  }
+ 
+/* Define the background color and text color for the decoration class */
+  .decoration {
+    background-color:#ff8f00;
+    
+}
+
+
+.styled-contact {
+    margin-right: 10px;
+    font-size:25px;
+    color: #ff8f00;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .styled-contact {
+      font-size: 25px;
+      margin-right: 0;
+    }
+  }
+.call-settings {
+    color: aqua;
+    size: 28px;
+}
+
+
+
+
+
+.modal-container {
+  position: absolute;
+  top: 3%;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 85%;
+  background-color: white;
+  box-shadow: 24px;
+  padding: 4px;
+  border-radius: 10px;
+  border: 2px solid rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 5%;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 4px;
+  font-size: x-large;
+}
+
+.text-hover {
+  color: rgb(107, 201, 19);
+}
+.text-hover:hover{
+  color: rgb(253, 97, 7);
+}
+
