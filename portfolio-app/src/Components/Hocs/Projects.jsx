@@ -1,5 +1,5 @@
 import portfolio from '../images/Portfolio.jpeg';
-import greenhubsoko from '../images/greenhubsoko.png';
+import Greenhubsoko from '../images/greenhubsoko.png';
 import greenhubsokovideo  from '../videos/greenhubsoko.mp4';
 import greenhubnews from '../images/greenhubnews.png';
 import greenhubvideo from '../videos/greenhubnews.mp4';
@@ -26,7 +26,7 @@ const projects = [
     {
         id: 2,
         label: 'greenhubsoko web app',
-        image: greenhubsoko,
+        image: Greenhubsoko,
         github: 'https://github.com/Kincaid-kroos/GreenHub-Soko',
         server: 'https://greenhubsoko.vercel.app/',
         tech: 'ReactJs, Bootstrap, HTML, CSS, (Backend under dvpt with Python Django)',
