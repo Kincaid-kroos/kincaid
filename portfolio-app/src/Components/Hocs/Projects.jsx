@@ -59,7 +59,7 @@ const projects = [
     
     {
         id: 5,
-        label: 'react-toastify Contact Website',
+        label: 'react-toastify Contact Landing Page',
         image: toastify,
         github: 'https://github.com/Kincaid-kroos/react-toaster',
         tech: 'ReactJs, Tailwind CSS',
