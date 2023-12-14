@@ -26,7 +26,7 @@ const Resume = () => {
         <h2 className="education ">Education</h2>
         <p className="course">Bsc, Computer Science and Statistics -<b className="b">Technical University of Mombasa</b> </p>
         <p className="dates">Sep 2018-Dec 2022</p>
-        <p className="grade"><b>Grade:</b> <i>Second Class Honours Upper Division</i></p>
+        <p className="grade"><b>Grade:</b> <i>Second Class Honours (Upper Division)</i></p>
       </div>
       <div>
         <ul className="course-list">
