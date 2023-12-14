@@ -58,10 +58,13 @@ const Projects = () => {
                                         Tech: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.tech}</b>
                                     </p>
                                     <div>
+                                        { project.github &&
                                         <Link to={project.github} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }} className="text-primary"> 
                                              Github < GitHubIcon  className="text-dark"/>
                                         </Link>
+                                        }
                                     </div>
+                                    
                                     <div>
                                     {project.server && (
                                         <Link to={project.server} target="_blank" style={{ color: '#e3f2fd', fontSize: '18px' }}  className="text-primary">
@@ -73,6 +76,13 @@ const Projects = () => {
                                     <p style={{ color: '#27AE60', fontSize: '16px' }}>
                                         Status: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.status}</b>
                                     </p>
+                                    
+                                    <div> 
+                                        {project.type && 
+                                        <p style={{ color: '#27AE60', fontSize: '16px' }}>
+                                        Type: <b style={{ color: '#e3f2fd' }} className="text-dark">{project.type}</b>
+                                        </p> }
+                                    </div>
                                     <div>
                                        {project.video && (
                                           <button onClick={() => navigateToVideoPage(project.id)}
