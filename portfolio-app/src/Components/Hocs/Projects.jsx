@@ -4,7 +4,7 @@ import greenhubsokovideo  from '../videos/greenhubsoko.mp4';
 import greenhubnews from '../images/greenhubnews.png';
 import greenhubvideo from '../videos/greenhubnews.mp4';
 import notebookvideo from '../videos/Notebookkincaid.mp4'
-//import tos from '../images/Kincaid.jpg';
+import recipe from '../images/recipe.png';
 import chaus from '../images/Chaus.png'
 import notebookimg from '../images/notebookkincaid.png';
 import toastify from '../images/toastify.png';
@@ -71,16 +71,17 @@ const projects = [
         describtion:'Get the latest item in town now with GreenHubSoko'
 
     },
-    
     {
         id: 6,
-        label: 'react-toastify Contact Landing Page',
-        image: toastify,
-        github: 'https://github.com/Kincaid-kroos/react-toaster',
-        tech: 'ReactJs, Tailwind CSS',
-        server: 'http://kincaid-toastify.vercel.app/',
+        label: 'Recipes with Kincaid website',
+        image: recipe,
+        github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
+        server: 'https://recipes-kincaid.vercel.app/',
+        tech: 'ReactJs, API, Tailwind CSS',
         status: 'Deployed'
+
     },
+    
     {
         id: 7,
         label: 'Notebook CRUD web app',
@@ -91,18 +92,18 @@ const projects = [
         video: notebookvideo,
         describtion:'This is a simple crud web application that allows a user to add, delete, post or update an stuff. It was the most perfect start to learn full stack crud operations with python Django. It utilizes Django for Backend, PostgreSQl database and ReactJs frontend'
     },
-   // {
-     //   id: 8,
-       // label: 'recipes-kincaid website',
-        //image: tos,
-        //github: 'https://github.com/Kincaid-kroos/recipeSearchApi',
-        //server: 'https://recipes-kincaid.vercel.app/',
-        //tech: 'ReactJs, API , Bootstrap , Tailwind CSS',
-        //status: 'Deployed'
-
-    //},
     {
         id: 8,
+        label: 'react-toastify Contact Landing Page',
+        image: toastify,
+        github: 'https://github.com/Kincaid-kroos/react-toaster',
+        tech: 'ReactJs, Tailwind CSS',
+        server: 'http://kincaid-toastify.vercel.app/',
+        status: 'Deployed'
+    },
+    
+    {
+        id: 9,
         label: 'Takin Safaris',
         image: Coming,
         type: 'Client Project',
@@ -115,7 +116,7 @@ const projects = [
 
 
     {
-        id: 9,
+        id: 10,
         label: 'Dustin BNB reservation system',
         image: Coming,
         type: 'Client Project',
