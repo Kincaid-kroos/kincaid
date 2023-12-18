@@ -32,7 +32,7 @@ const projects = [
         github: 'https://github.com/Kincaid-kroos/Chaus-Kitchen',
         server: 'https://chaus-barbaque.vercel.app/',
         tech: 'ReactJs, Vite, Tailwind CSS',
-        status: 'Under dvpt',
+        status: 'Deployed',
         
 
     },
