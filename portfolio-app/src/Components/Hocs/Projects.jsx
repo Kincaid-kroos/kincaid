@@ -3,10 +3,10 @@ import Greenhubsoko from '../images/greenhubsoko.png';
 import greenhubsokovideo  from '../videos/greenhubsoko.mp4';
 import greenhubnews from '../images/greenhubnews.png';
 import greenhubvideo from '../videos/greenhubnews.mp4';
-import notebookvideo from '../videos/Notebookkincaid.mp4'
+//import notebookvideo from '../videos/Notebookkincaid.mp4'
 import recipe from '../images/recipe.png';
 import chaus from '../images/Chaus.png'
-import notebookimg from '../images/notebookkincaid.png';
+//import notebookimg from '../images/notebookkincaid.png';
 import toastify from '../images/toastify.png';
 import Coming from '../images/coming.png';
 import cvv from '../images/cvv.png';
@@ -82,18 +82,18 @@ const projects = [
 
     },
     
+   // {
+   //     id: 7,
+     //   label: 'Notebook CRUD web app',
+       // image: notebookimg,
+       // github: 'https://github.com/Kincaid-kroos/NotebookFullstack',
+       // tech: 'ReactJs, HTML, CSS, Django & Postgresql',
+        //status: 'localhost, click the video',
+        //video: notebookvideo,
+        //describtion:'This is a simple crud web application that allows a user to add, delete, post or update an stuff. It was the most perfect start to learn full stack crud operations with python Django. It utilizes Django for Backend, PostgreSQl database and ReactJs frontend'
+    //},
     {
         id: 7,
-        label: 'Notebook CRUD web app',
-        image: notebookimg,
-        github: 'https://github.com/Kincaid-kroos/NotebookFullstack',
-        tech: 'ReactJs, HTML, CSS, Django & Postgresql',
-        status: 'localhost, click the video',
-        video: notebookvideo,
-        describtion:'This is a simple crud web application that allows a user to add, delete, post or update an stuff. It was the most perfect start to learn full stack crud operations with python Django. It utilizes Django for Backend, PostgreSQl database and ReactJs frontend'
-    },
-    {
-        id: 8,
         label: 'react-toastify Contact Landing Page',
         image: toastify,
         github: 'https://github.com/Kincaid-kroos/react-toaster',
@@ -103,7 +103,7 @@ const projects = [
     },
     
     {
-        id: 9,
+        id: 8,
         label: 'Takin Safaris',
         image: Coming,
         type: 'Client Project',
@@ -116,7 +116,7 @@ const projects = [
 
 
     {
-        id: 10,
+        id: 9,
         label: 'Dustin BNB reservation system',
         image: Coming,
         type: 'Client Project',
